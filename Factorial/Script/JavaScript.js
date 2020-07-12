@@ -1,15 +1,15 @@
 ﻿
 $(document).ready(function () {
     $("#input-btn").click(function () {
-        let input = $("#factoral-input").val();
+        let input = parseFloat($("#factoral-input").val());
         $("#output-list").empty();
         if (verifyInput(input)) {
-            calculateValue(parseInt(input));
+            calculateValue(input);
         }
     });
 
     function verifyInput(input) {
-        if (isNaN(parseInt(input)) || !Number.isInteger(input)) {
+        if (isNaN(input) || !Number.isInteger(input)) {
             alert(`${input} is not a valid number`); 
             $("#factoral-input").val("");
         } else if (input < 1 ||  input > 120) {
