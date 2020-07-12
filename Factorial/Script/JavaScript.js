@@ -3,9 +3,12 @@ $(document).ready(function () {
     $("#input-btn").click(function () {
         let input = parseFloat($("#factoral-input").val());
         $("#output-list").empty();
+        console.log("test");
         if (verifyInput(input)) {
+            console.log("test");
             calculateValue(input);
         }
+ 
     });
 
     function verifyInput(input) {
@@ -16,6 +19,7 @@ $(document).ready(function () {
             alert(`${input} is not between 1 and 120`);
             $("#factoral-input").val("");
         }
+        return true;
     }
     function calculateValue(input) {
         console.log(input);

@@ -1,2 +1,44 @@
-﻿body {
+﻿#mathisfun {
+    margin-left:;
+}
+
+#factorial-title {
+    margin-top: 2%;
+    text-align: center;
+}
+
+#factoral-info {
+    background-color: lightblue;
+    text-align: center;
+}
+
+#factoral-input {
+    border: solid green 2px;
+    border-radius: 3px;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.factoral-output {
+    border: solid green 2px;
+    border-radius: 3px;
+}
+
+.user-output {
+    text-align: center;
+}
+
+#output-list {
+    text-align: center;
+}
+#more-info{
+    background-color: lightgray;
+}
+#output-list {
+    background-color: lightgray;
+}
+#output-container{
+    margin-top:10px;
 }
