@@ -1,7 +1,9 @@
-﻿#mathisfun {
-    margin-left:;
+﻿body {
+    background-image: linear-gradient(to left, #f3edc9, #cfe4e9);
 }
-
+#example-list {
+    background-color: tan;
+}
 #factorial-title {
     margin-top: 2%;
     text-align: center;
@@ -37,8 +39,28 @@
     background-color: lightgray;
 }
 #output-list {
-    background-color: lightgray;
+    background-color: tan;
 }
 #output-container{
     margin-top:10px;
+}
+
+#output-index {
+    display: inline;
+}
+
+#output-code {
+    display: none;
+}
+
+#output-solve {
+    display: none;
+}
+
+#output-solvejs {
+    display: none;
+}
+
+#output-codejs {
+    display: none;
 }

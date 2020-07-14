@@ -67,10 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HTML\Code.html" />
+    <Content Include="HTML\Solve.html" />
     <Content Include="index.html" />
     <Content Include="Script\bootstrap.js" />
+    <Content Include="Script\code.js" />
     <Content Include="Script\JavaScript.js" />
     <Content Include="Script\jquery-3.5.1.min.js" />
+    <Content Include="Script\solve.js" />
     <Content Include="style\bootstrap.css" />
     <Content Include="style\style.css" />
     <Content Include="Web.config" />
