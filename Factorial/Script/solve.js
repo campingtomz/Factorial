@@ -8,14 +8,14 @@ $(document).ready(function () {
             console.log("test");
             calculateValue(input);
         }
- 
+
     });
 
     function verifyInput(input) {
         if (isNaN(input) || !Number.isInteger(input)) {
-            alert(`${input} is not a valid number`); 
+            alert(`${input} is not a valid number`);
             $("#factoral-input").val("");
-        } else if (input < 1 ||  input > 120) {
+        } else if (input < 1 || input > 120) {
             alert(`${input} is not between 1 and 120`);
             $("#factoral-input").val("");
         }
