@@ -2,18 +2,24 @@
     background-image: linear-gradient(to left, #f3edc9, #cfe4e9);
 }
 #example-list {
-    background-color: tan;
+    background-color: #ffcc99;
 }
 #factorial-title {
     margin-top: 2%;
     text-align: center;
 }
-
+#exampleRow {
+    border: solid #00ccff;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px
+}
 #factoral-info {
     background-color: lightblue;
     text-align: center;
 }
-
+#inputRow{
+    text-align:center;
+}
 #factoral-input {
     border: solid green 2px;
     border-radius: 3px;
@@ -39,7 +45,7 @@
     background-color: lightgray;
 }
 #output-list {
-    background-color: tan;
+    background-color: #ffcc99;
 }
 #output-container{
     margin-top:10px;

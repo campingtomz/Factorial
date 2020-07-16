@@ -1,7 +1,7 @@
 ﻿
 $(document).ready(function () {
     $("#input-btn").click(function () {
-        let input = parseFloat($("#factoral-input").val());
+        let input = parseFloat($("#factorial-input").val());
         $("#output-list").empty();
         console.log("test");
         if (verifyInput(input)) {
@@ -14,10 +14,10 @@ $(document).ready(function () {
     function verifyInput(input) {
         if (isNaN(input) || !Number.isInteger(input)) {
             alert(`${input} is not a valid number`);
-            $("#factoral-input").val("");
+            $("#factorial-input").val("");
         } else if (input < 1 || input > 120) {
             alert(`${input} is not between 1 and 120`);
-            $("#factoral-input").val("");
+            $("#factorial-input").val("");
         }
         return true;
     }
@@ -28,10 +28,10 @@ $(document).ready(function () {
         for (let i = 1; i < input + 1; i++) {
             value *= i;
             outputstring += ` x ${i}`;
-            //let result = `${outputstring} = ${value}`;
+            
             let list = document.createElement("li");
             list.innerHTML = `${outputstring} = ${value}`
-            $("#output-list").append(list);
+            $("#output-list").append(`<h4>${outputstring} = ${value}</h4>`);
         }
     };
 });
