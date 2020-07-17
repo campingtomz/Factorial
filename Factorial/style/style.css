@@ -50,23 +50,3 @@
 #output-container{
     margin-top:10px;
 }
-
-#output-index {
-    display: inline;
-}
-
-#output-code {
-    display: none;
-}
-
-#output-solve {
-    display: none;
-}
-
-#output-solvejs {
-    display: none;
-}
-
-#output-codejs {
-    display: none;
-}
